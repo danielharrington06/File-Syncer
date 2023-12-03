@@ -38,7 +38,25 @@ It generates the action from the existance of both files/folders, file size, and
 
 Once finished, it repeats this process but referencing the second path's directory. This ensures that all files are synced from the first path's directory to the second's and vice versa.
 
-When in action mode, it checks with the user what to do when a confirmation is necessary.
+When in action mode, after each significant suggested action, it checks with the user what to do when a confirmation is necessary.
+
+When it has gone through both directories, it details the stats of the sync. These include the number of suggested changes, the changes carried out, the estimated percentage synced and the total time taken. Here is an example of that:
+
+        ==========================================================================================================================
+
+        FINISHED - 2023-12-03 21:48:54
+
+        SUGGESTED CHANGES: 14
+        CHANGES CARRIED OUT: 11
+
+        LOG FILE PATH: [full path to log file that can be copied]
+        BIN FOLDER PATH: [full path to Bin folder that can be copied]
+
+        ESTIMATED PERCENTAGE SYNCED: 99.99397%
+
+        TIME TAKEN: 41.37 s
+
+        ==========================================================================================================================
 
 
 
