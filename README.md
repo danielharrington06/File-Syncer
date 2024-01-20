@@ -1,7 +1,7 @@
 # File-Syncer
 A program that syncs to folders to each other and has various safety measures and statistic trackers.
 
-# Using sync_files.py or sync_files.exe
+# Using sync_files.py
 This is the main program. Before running, ensure that you correctly configure the sync_config.ini file.
 
 In action mode, to make changes you will need to respond in the terminal/console. Input a single letter when asked what action to carry out. Input yes or no when asking if the program should execute this action.
