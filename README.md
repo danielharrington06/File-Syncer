@@ -4,6 +4,17 @@ A program that syncs to folders to each other and has various safety measures an
 ## Aim and Purpose
 I wrote this program to sync my Internal Drive on my computer to my iCloud Drive as I can then access files from both my phone and iPad. Also, I found it to be a useful project for learning about competent testing and failsafes, as the program was handling files that I need for school and personal uses.
 
+I've since found that I can symlink the two directories and keep all files on device which is what I now use, however I found it very valuable to learn through this program.
+
+## Update 2025
+Having looked back on this project, now with the knowledge of OOP, I can see that this program would have been much less painful to code if I had created classes and methods instead of numerous functions with countless parameters.
+
+Hopefully at some point I will rework the code for this with my better programming practices.
+
+Known Potential Problems:
+1. Percentage synced cannot be guaranteed to be accurate
+2. Some files occasionally ask to be synced (which from memory are copies of files like word documents with slightly different names) but if you try to delete them, it is not possible
+
 ## Using sync_files.py
 This is the main program. Before running, ensure that you correctly configure the sync_config.ini file.
 
@@ -65,11 +76,4 @@ Although I have thoroughly tested this code on my folders and files as well as s
 I have not tested date parameters other than last modified, so I can neither justify that they would be useful, nor say that they are bug free. Therefore, use these with caution.
 
 Personal use of this program is carried out at your own risk. I cannot accept any responsibilty for unforeseen bugs.
-
-## Copyright Information
-I have not included a license on this program and associated configuration files. By default, this creative work is under exclusive copyright. This means that no one can copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation.
-
-However, this program can be used for personal usage only. This means that as long as you do not copy/distribute/modify this program without my authorisation, you may use this for yourself.
-
-Read more about program code that has no license here: https://choosealicense.com/no-permission/
 
